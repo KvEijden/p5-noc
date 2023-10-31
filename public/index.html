@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src = "https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.min.js"></script>
+  <link rel="stylesheet" href="css/sketch-layout.css">
+  <meta charset="utf-8" />
+  <title>P5 sketch project</title>
+</head>
+
+<body>
+  <!-- basic layout of a P5 app: 
+    -->
+  <div id="p5-viewport">
+    <div id="top">
+      <span id="app-title" class="title">P5 app title</span>
+      <span id="menu-item-0" class="menu-item">Menu 0</span>
+      <span id="menu-item-1" class="menu-item">Menu 1</span>
+      <span id="menu-item-2" class="menu-item">Menu 2</span>
+      <span id="menu-item-3" class="menu-item">Menu 3</span>
+    </div>
+    <div id="bottom">
+      <span id="bottom-title" class="title">About</span>
+    </div>
+    <div id="left">
+      <span id="left-title" class="title">Controls</span>
+      <span id="left-control-0" class="control">Control 0</span>
+      <span id="left-control-1" class="control">Control 1</span>
+      <span id="left-control-2" class="control">Control 2</span>
+      <span id="left-control-3" class="control">Control 3</span>
+    </div> 
+    <div id="right">
+      <span id="right-title" class="title">Controls</span>
+      <span id="right-control-0" class="control">Control 0</span>
+      <span id="right-control-1" class="control">Control 1</span>
+      <span id="right-control-2" class="control">Control 2</span>
+      <span id="right-control-3" class="control">Control 3</span>
+    </div>
+    <div id="canvas"></div>
+  </div>
+  <script src="js/Mover.js"></script>
+  <script src="js/Attractor.js"></script>
+  <script src="js/Quadtree.js"></script>
+  <script src="js/Wave.js"></script>
+  <!-- script src="js/Mover1.js"></script -->
+  <script src="js/Particle.js"></script>
+  <script src="js/Emitter.js"></script>
+  <script src="js/Boid.js"></script>
+  <script src="js/sketch.js"></script>
+</body>
+
+</html>
